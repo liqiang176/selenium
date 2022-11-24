@@ -73,5 +73,5 @@ class TestActionChains:
 
 
 if __name__ == '__main__':
-    pytest.main(['--clean-alluredir', "test_actionchains.py", "-s",'--alluredir','../report/tmp'])
+    pytest.main(['--clean-alluredir', "run.py", "-s",'--alluredir','../report/tmp'])
     os.system("allure serve ../report/tmp")
